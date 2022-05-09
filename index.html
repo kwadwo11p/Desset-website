@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Belt exam</title>
+  </head>
+  <body>
+    <!-- nav starts -->
+    <nav class="nav">
+      <h1>Just<span class="dessert">Dessert</span></h1>
+      <div class="logs">
+        <button class="login">Join</button>
+        <button class="logout">Logout</button>
+      </div>
+    </nav>
+    <!-- nav ends  -->
+    <!--header starts  -->
+    <header class="top-menu flex">
+      <div class="search">
+        <input type="input" placeholder="SEARCH" id="search" value=""/>
+        <label for="search"><button class="go">Go</button></label>
+      </div>
+      <div class="header-img flex">
+        <div class="image-window">
+          <img src="./imgs/cake.png" alt="cake" />
+          <p>Cake</p>
+        </div>
+        <div class="image-window">
+          <img src="./imgs/cookie.png" alt="cookie" />
+          <p>Cookies</p>
+        </div>
+        <div class="image-window">
+          <img src="./imgs/ice-cream.png" alt="ice-cream" />
+          <p>Ice cream</p>
+        </div>
+        <div class="image-window">
+          <img src="./imgs/pie.png" alt="pie" />
+          <p>Pie</p>
+        </div>
+      </div>
+    </header>
+    <!-- header ends  -->
+    <!-- main starts >Recipe > Macarons > Creme brulee-->
+    <main class="container">
+      <div class="recipe">
+        <h2>Recipe of the Day</h2>
+        <img class="recipe-img" src="./imgs/orange-tart.jpg" alt="orange-tart">
+        <div class="recipe-bottom">
+          <div class="recipe-window-bottom">
+            <p>Orange Tea Jelly Tart</p>
+            <p>By: <span>Yunpiano</span></p>
+          </div>
+          <div class="count ">
+            <span class="love"><i class="fa-solid fa-heart"></i></span>
+            <span class="like">0</span>
+          </div>
+        </div>
+        <a href="#" class="see">See Full Recipe</a>
+      </div>
+      <div class="recommended">
+        <!-- Macarons -->
+        <div class="recipe">
+          <h3>Recommended for you</h3>
+          <img class="recipe-img" src="./imgs/macarons.jpg" alt="macarons">
+          <div class="recipe-bottom">
+            <div class="recipe-window-bottom">
+              <p>Macarons</p>
+              <p>By: <span> <a href="#">Yunpiano</a> </span></p>
+            </div>
+            <div class="count ">
+              <span class="love-1"><i class="fa-solid fa-heart"></i></span>
+              <span class="like-1">0</span>
+            </div>
+          </div>
+          <!-- Creme brulee -->
+        <div class="recipe">
+          <img class="recipe-img" src="./imgs/creme-brulee.jpg" alt="orange-tart">
+          <div class="recipe-bottom">
+            <div class="recipe-window-bottom">
+              <p>Creme brulee</p>
+              <p>By: <span> <a href="#">MarisaG</a> </span></p>
+            </div>
+            <div class="count ">
+              <span class="love-2"><i class="fa-solid fa-heart"></i></span>
+              <span class="like-2">0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- main ends  -->
+    <!-- js -->
+    <script src="script.js"></script>
+  </body>
+</html>

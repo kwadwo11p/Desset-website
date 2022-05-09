@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+/* utilities  */
+
+.flex {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(46, 45, 45);
+    padding: .5rem .2rem;
+    width: 100%;
+}
+
+.nav h1 {
+    color: white;
+}
+
+.dessert {
+    color: orange;
+}
+
+.login {
+    background-color: blue;
+    padding: 3px;
+    cursor: pointer;
+
+}
+
+.logout {
+    background-color: orange;
+    padding: 3px;
+    cursor: pointer;
+}
+
+
+/* nav ends */
+
+/* header starts  */
+.header-img img {
+    width: 100%;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.top-menu {
+    padding: 1rem;
+    background-color: rgb(240, 195, 113);
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.search {
+    display: flex;
+
+}
+
+.go {
+    background-color: blue;
+    color: white;
+    padding: 6px;
+    cursor: pointer;
+}
+
+
+
+/* header ends  */
+
+
+/* main stars  */
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
+}
+
+.recipe {
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.267);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.recipe h2 {
+    text-align: center;
+    color: rgb(54, 54, 175);
+    margin-bottom: 10px;
+}
+
+.recipe img {
+    width: 100%;
+}
+
+.recipe-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    margin: 5px;
+}
+
+.see {
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* recomended starts */
+
+
+
+
+/* recomemded ends */
+
+/* main ends  */
